@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblioteca de PDFs</title>
+<meta name="description" content="Biblioteca pública de documentos e PDFs.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <a class="logo" href="./">📚 Biblioteca PDF</a>
+    <span class="publico">Acesso público</span>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Biblioteca de PDFs</h1>
+    <p>Encontre, visualize e baixe os documentos disponíveis.</p>
+    <input id="busca" type="search" placeholder="🔎 Pesquisar PDF..." aria-label="Pesquisar PDF">
+  </section>
+
+  <div class="toolbar">
+    <div id="categorias" class="categorias"></div>
+    <span id="contador"></span>
+  </div>
+
+  <section id="lista" class="grid"></section>
+  <p id="vazio" class="vazio" hidden>Nenhum PDF encontrado.</p>
+</main>
+
+<footer>
+  <div class="container">Biblioteca PDF • Conteúdo disponibilizado pelo administrador</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
