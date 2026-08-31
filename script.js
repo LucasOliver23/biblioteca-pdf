@@ -1,8 +1,10 @@
 const pdfs = [
-  // nome:"CASE 845B".
-  // Exemplo:MAQUINA
-  // {nome:"Apostila de Engenharia de Software", arquivo:"pdfs/engenharia-software.pdf", categoria:"Cursos", descricao:"Material para estudo."},
-];
+  {
+    nome: "CASE 845B",
+    arquivo: "pdfs/CASE-845B.pdf",
+    categoria: "MAQUINAS",
+    descricao: "Material de estudo."
+  },
 
 let categoriaAtual = "Todos";
 
